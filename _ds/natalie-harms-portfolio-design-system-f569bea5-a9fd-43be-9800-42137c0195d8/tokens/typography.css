@@ -1,0 +1,48 @@
+/* ============================================================
+   TYPOGRAPHY — two voices:
+   1) Redaction 35 (italic) — pixel-serif display + nav. Edgy, romantic,
+      glitchy. Lowercase or Title Case, never ALL CAPS.
+   2) Hanken Grotesk (thin/light) — quiet functional UI + body copy.
+      Almost always lowercase. Wide tracking on small labels.
+   ============================================================ */
+:root {
+  /* ---- Families ---- */
+  --font-display: 'Redaction 35', 'Times New Roman', Georgia, serif;
+  --font-pixel: 'Redaction 50', 'Redaction 35', 'Times New Roman', serif; /* heavy glitch — optional */
+  --font-script: 'Mr De Haviland', 'Edwardian Script ITC', 'Snell Roundhand', cursive; /* swash caps */
+  --font-body: 'Hanken Grotesk', ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* ---- Weights ---- */
+  --fw-thin: 100;        /* @kind font */
+  --fw-extralight: 200;  /* @kind font */
+  --fw-light: 300;       /* @kind font */
+  --fw-regular: 400;     /* @kind font */
+  --fw-medium: 500;      /* @kind font */
+  --fw-bold: 700;        /* @kind font */
+
+  /* ---- Fluid display scale (Redaction italic) ---- */
+  --text-hero:    clamp(64px, 11vw, 160px);  /* the big name */
+  --text-display: clamp(48px, 7vw, 104px);   /* section heroes  (~120pt) */
+  --text-h1:      clamp(36px, 4.4vw, 64px);
+  --text-h2:      clamp(28px, 3vw, 44px);     /* subheader (~40pt) */
+  --text-h3:      clamp(22px, 2vw, 30px);
+
+  /* ---- Body scale (Hanken Grotesk) ---- */
+  --text-body-lg: 20px;   /* body 1 (~30pt scaled for web) */
+  --text-body:    16px;
+  --text-body-sm: 14px;
+  --text-label:   13px;   /* pills / nav-ui / captions */
+  --text-micro:   11px;   /* meta, system tags */
+
+  /* ---- Line heights ---- */
+  --lh-tight: 0.92;   /* @kind font */
+  --lh-snug: 1.1;     /* @kind font */
+  --lh-normal: 1.5;   /* @kind font */
+  --lh-relaxed: 1.65; /* @kind font */
+
+  /* ---- Tracking ---- */
+  --tracking-tight: -0.02em; /* @kind font */
+  --tracking-normal: 0;      /* @kind font */
+  --tracking-wide: 0.08em;   /* @kind font */
+  --tracking-wider: 0.16em;  /* @kind font */
+}
