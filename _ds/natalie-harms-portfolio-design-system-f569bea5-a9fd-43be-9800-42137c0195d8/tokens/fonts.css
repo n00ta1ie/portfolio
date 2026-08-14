@@ -1,0 +1,62 @@
+/* ============================================================
+   FONTS — Natalie Harms Portfolio
+   Display : Redaction 35 (Italic)  — OFL, self-served via Fontsource CDN
+             A halftone/pixel-degraded serif. The "35" grade is the
+             deliberately low-resolution cut used across the brand.
+   Body/UI : Hanken Grotesk          — SUBSTITUTE for "Univers Next Pro Thin"
+             (Univers is a commercial Linotype face; Hanken Grotesk is the
+             nearest neutral grotesque with true Thin/Light weights on a
+             free CDN). Flagged to the user — swap in real Univers webfonts
+             when available.
+   ============================================================ */
+
+/* Redaction 35 — Regular */
+@font-face {
+  font-family: 'Redaction 35';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/redaction-35@5.2.5/files/redaction-35-latin-400-normal.woff2') format('woff2');
+}
+/* Redaction 35 — Italic (the signature display style) */
+@font-face {
+  font-family: 'Redaction 35';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/redaction-35@5.2.5/files/redaction-35-latin-400-italic.woff2') format('woff2');
+}
+/* Redaction 35 — Bold */
+@font-face {
+  font-family: 'Redaction 35';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/redaction-35@5.2.5/files/redaction-35-latin-700-normal.woff2') format('woff2');
+}
+
+/* Redaction 50 — the heavy pixel-glitch grade used for big hero display.
+   (The style guide names "Redaction 35"; the brand's actual hero renders
+   far more pixelated — grade 50 matches that signature look.) */
+@font-face {
+  font-family: 'Redaction 50';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/redaction-50@5.2.5/files/redaction-50-latin-400-normal.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Redaction 50';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://cdn.jsdelivr.net/npm/@fontsource/redaction-50@5.2.5/files/redaction-50-latin-400-italic.woff2') format('woff2');
+}
+
+/* Body grotesque — Hanken Grotesk (substitute for Univers Next Pro Thin) */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Script swash caps — Mr De Haviland is the nearest FREE match for the
+   "Edwardian Script ITC" capitals used on the hero name (N, H).
+   Edwardian Script ITC is a commercial Monotype face — flagged to the user. */
+@import url('https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap');
